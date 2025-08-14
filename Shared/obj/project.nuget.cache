@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sk62MpAZo7dDqBFtUIofkrK9zieVZBaRAH2a92vHkENo+ZMDo/bC586Ne4d/7cRWEHF2u8CSiZkqGO8feiZEkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thari\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\VectorClockDashboard\\VectorClockDashboard.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\VectorClockDashboard\\VectorClockDashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\VectorClockDashboard\\VectorClockDashboard.csproj",
+        "projectName": "VectorClockDashboard",
+        "projectPath": "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\VectorClockDashboard\\VectorClockDashboard.csproj",
+        "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thari\\Documents\\Nethmi\\KDU\\6th Semester\\PDC\\DistributedCalculator\\VectorClockDashboard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

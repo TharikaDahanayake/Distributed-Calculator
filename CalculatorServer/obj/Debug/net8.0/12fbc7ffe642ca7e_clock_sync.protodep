@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/ClockSync.cs \
+obj\Debug\net8.0\Protos/ClockSyncGrpc.cs: Protos/clock_sync.proto

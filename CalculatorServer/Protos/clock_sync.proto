@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+option csharp_namespace = "CalculatorServer";
+
+package clocksync;
+
+// The clock synchronization service definition
+service ClockSyncService {
+  // Get the latest clock value and sync status
+  rpc GetLatestClock (ClockSyncRequest) returns (ClockSyncResponse);
+}
+
+// The request message containing the current clock value
+message ClockSyncRequest {
+  int64 current_clock = 1;
+}
+
+// The response message containing the synced clock value and status
+message ClockSyncResponse {
+  int64 synced_clock = 1;
+  bool is_diverged = 2;
+  string message = 3;
+}

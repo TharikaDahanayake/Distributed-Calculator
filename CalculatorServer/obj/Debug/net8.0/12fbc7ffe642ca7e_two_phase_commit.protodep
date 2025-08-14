@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/TwoPhaseCommit.cs \
+obj\Debug\net8.0\Protos/TwoPhaseCommitGrpc.cs: Protos/two_phase_commit.proto

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "CalculatorServer";
+
+service CalculatorService{
+    rpc Square (CalculationRequest) returns (CalculationResponse);
+    rpc Cube (CalculationRequest) returns (CalculationResponse);
+    rpc SlowMultiply (MultiplyRequest) returns (CalculationResponse);
+}
+message MultiplyRequest{
+    int32 a = 1;
+    int32 b = 2;
+    int32 timestamp = 3;
+}
+
+message CalculationRequest{
+    int32 number = 1;
+    int32 timestamp = 2;
+}
+
+message CalculationResponse{
+    int32 result = 1;
+    int32 timestamp = 2;
+    bool isSuccess = 3;
+    string message = 4;
+    string redirect_to = 5;  // For leader redirection
+}
+
+message MatrixRow {
+    map<string, int32> row = 1;
+}

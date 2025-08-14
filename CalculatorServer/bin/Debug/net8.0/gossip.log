@@ -1,0 +1,4 @@
+2025-08-14 06:31:04.625 - Server https://localhost:5001 - Clock 0 - Selected peer: https://localhost:5002
+2025-08-14 06:31:08.833 - Server https://localhost:5001 - Clock 0 - Failed to gossip with https://localhost:5002: Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.")
+2025-08-14 06:31:14.601 - Server https://localhost:5001 - Clock 0 - Selected peer: https://localhost:5002
+2025-08-14 06:31:18.749 - Server https://localhost:5001 - Clock 0 - Failed to gossip with https://localhost:5002: Status(StatusCode="Unavailable", Detail="Error connecting to subchannel.", DebugException="System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.")

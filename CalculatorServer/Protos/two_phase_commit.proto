@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option csharp_namespace = "CalculatorServer";
+
+service TwoPhaseCommitService {
+    rpc Prepare (PrepareRequest) returns (PrepareResponse);
+    rpc Commit (CommitRequest) returns (CommitResponse);
+    rpc Abort (AbortRequest) returns (AbortResponse);
+}
+
+message PrepareRequest {
+    int32 transaction_id = 1;
+    string operation = 2;    // "Square" or "Cube"
+    int32 number = 3;
+    int32 timestamp = 4;
+}
+
+message PrepareResponse {
+    bool ready = 1;
+    string participant_id = 2;
+    string message = 3;
+}
+
+message CommitRequest {
+    int32 transaction_id = 1;
+}
+
+message CommitResponse {
+    bool success = 1;
+    string message = 2;
+    int32 result = 3;
+}
+
+message AbortRequest {
+    int32 transaction_id = 1;
+    string reason = 2;
+}
+
+message AbortResponse {
+    bool success = 1;
+    string message = 2;
+}
